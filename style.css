@@ -189,3 +189,40 @@ button.next {
 .music {
     height: 10rem;
 }
+
+.production {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: #1f1f1f; /* tom acinzentado escuro */
+  color: #e0e0e0; /* texto claro para contraste */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Fonte padrão para o corpo do site */
+body {
+  font-family: Georgia, serif;
+  color: #e0e0e0;
+  background-color: #121212; /* fundo geral escuro elegante */
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos com Cinzel */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  margin-bottom: 20px;
+}
+
+/* Links com sublinhado e efeito hover */
+a {
+  color: #ccc;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #fff;
+}
